@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    background-color: #d6eaf8; /* Light blue background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fef9e7; /* Light yellow background */
+    border: 2px solid #aed6f1;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    color: #5dade2; /* Light blue heading color */
+}
+
+label {
+    color: #f4d03f; /* Bright yellow label color */
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #aed6f1;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #5dade2; /* Light blue button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2e86c1;
+}
+
+/* Shape to display the result */
+#resultShape {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: #5dade2; /* Light blue background for the circle */
+    border-radius: 50%; /* Makes it a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#resultText {
+    font-size: 24px;
+    color: #fef9e7; /* Light yellow text color */
+    font-weight: bold;
+}
